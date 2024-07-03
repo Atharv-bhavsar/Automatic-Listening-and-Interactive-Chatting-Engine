@@ -1,0 +1,376 @@
+{
+  "questions": [
+    {
+      "question": "hello",
+      "answer": "Hi how can i help you with?"
+    },
+    {
+      "question": "What are variables?",
+      "answer": "Variables are containers which store different types of values eg: int a here a is a variable which can store a integer type of value."
+    },
+    {
+      "question": "tell me a joke?",
+      "answer": "Why don't scientists trust atoms?\nBecause they make up everything!"
+    },
+    {
+      "question": "tell me another joke?",
+      "answer": "Why did the scarecrow win an award?\nBecause he was outstanding in his field!"
+    },
+    {
+      "question": "joke of the day",
+      "answer": "ARFAN"
+    },
+    {
+      "question": "how are you mate?",
+      "answer": "good... thanks for asking."
+    },
+    {
+      "question": "what is java?",
+      "answer": "Java is a programming language and a platform.\n Java is a high level, robust, object-oriented and secure programming language."
+    },
+    {
+      "question": "Features of java?",
+      "answer": "Java is best known for its security. With Java, we can develop virus-free systems. Java is secured because:\n\nNo explicit pointer\nJava Programs run inside a virtual machine sandbox.It uses strong memory management.\nThere is a lack of pointers that avoids security problems.\nJava provides automatic garbage collection which runs on the \nJava Virtual Machine to get rid of objects which are not being used by a Java application anymore."
+    },
+    {
+      "question": "More features of java",
+      "answer": "Java is a dynamic language. It supports the dynamic loading of classes.\n It means classes are loaded on demand. It also supports functions from its native languages, i.e., C and C++."
+    },
+    {
+      "question": "hi",
+      "answer": "hi i am here to help"
+    },
+    {
+      "question": "orange",
+      "answer": "It is a colour so what?"
+    },
+    {
+      "question": "what is a bot",
+      "answer": "bot is virtual identity which can used for various tasks"
+    },
+    {
+      "question": "Hi",
+      "answer": "Hello what can i help you with"
+    },
+    {
+      "question": "what are control statements in java?",
+      "answer": "Java provides three types of control flow statements.\n\nDecision Making statements\nif statements\nswitch statement\nLoop statements\ndo while loop\nwhile loop\nfor loop\nfor-each loop\nJump statements\nbreak statement\ncontinue statement"
+    },
+    {
+      "question": "give me an example of if-else in java",
+      "answer": "if(condition) {    \nstatement 1; //executes when condition is true   \n}    "
+    },
+    {
+      "question": "bye",
+      "answer": "looking forward to see you again"
+    },
+    {
+      "question": "what is programming",
+      "answer": "Programming is understanding how software in computers are made."
+    },
+    {
+      "question": "what are the requirements of java?",
+      "answer": "Install the JDK if you don't have installed it, download the JDK and install it.\nSet path of the jdk/bin directory. http://www.javatpoint.com/how-to-set-path-in-java\nCreate the Java program\nCompile and run the Java program"
+    },
+    {
+      "question": "write hello world program in java.",
+      "answer": "Lets crete a simple hello world java program \n class Simple{  \n    public static void main(String args[]){  \n     System.out.println(\"Hello Java\");  \n    }  \n} \n Output:\nHello Java  "
+    },
+    {
+      "question": "what is the meaning of public static void main(String args[])",
+      "answer": "class keyword is used to declare a class in Java.\npublic keyword is an access modifier that represents visibility. It means it is visible to all.\nstatic is a keyword. If we declare any method as static, it is known as the static method. The core advantage of the static method is that there is no need to create an object to invoke the static method. The main() method is executed by the JVM, so it doesn't require creating an object to invoke the main() method. So, it saves memory.\nvoid is the return type of the method. It means it doesn't return any value.\nmain represents the starting point of the program.\nString[] args or String args[] is used for command line argument. We will discuss it in coming section.\nSystem.out.println() is used to print statement. Here, System is a class, out is an object of the PrintStream class, println() is a method of the PrintStream class.\n We will discuss the internal working of System.out.println() statement in the coming section."
+    },
+    {
+      "question": "What is JDK in java",
+      "answer": "JDK is an acronym for Java Development Kit. The Java Development Kit (JDK) is a software development environment which is used to develop Java applications and applets. It physically exists. It contains JRE + development tools.\n\nJDK is an implementation of any one of the below given Java Platforms released by Oracle Corporation:\n\nStandard Edition Java Platform\nEnterprise Edition Java Platform\nMicro Edition Java Platform\nThe JDK contains a private Java Virtual Machine (JVM) and a few other resources such as an interpreter/loader (java), a compiler (javac), an archiver (jar), a documentation generator (Javadoc), etc. to complete the development of a Java Application."
+    },
+    {
+      "question": "What is JRE in java",
+      "answer": "JRE is an acronym for Java Runtime Environment. It is also written as Java RTE.\n The Java Runtime Environment is a set of software tools which are used for developing Java applications. It is used to provide the runtime environment.\n It is the implementation of JVM. It physically exists.\n It contains a set of libraries + other files that JVM uses at runtime"
+    },
+    {
+      "question": "What are datatypes in java",
+      "answer": "There are two types of data types in Java:\n\nPrimitive data types: The primitive data types include boolean, char, byte, short, int, long, float and double.\nNon-primitive data types: The non-primitive data types include Classes, Interfaces, and Arrays.boolean data type\nbyte data type\nchar data type\nshort data type\nint data type\nlong data type\nfloat data type\ndouble data type."
+    },
+    {
+      "question": "What is int datatype in java",
+      "answer": "The int data type is generally used as a default data type for integral values unless if there is no problem about memory.\n\nExample:\n\nint a = 100000, int b = -200000  "
+    },
+    {
+      "question": "What is long datatype in java",
+      "answer": "long a = 100000L, long b = -200000L"
+    },
+    {
+      "question": "What are you doing",
+      "answer": "I'm idle i can provide my assitance if you want. "
+    },
+    {
+      "question": "what is your name",
+      "answer": "My name is ALICE (Automated Listening and Interactive Chat Engine)"
+    },
+    {
+      "question": "What is float datatype in java?",
+      "answer": "The float data type should never be used for precise values, such as currency. Its default value is 0.0F.\n\nExample:\n\nfloat f1 = 234.5f  "
+    },
+    {
+      "question": "What is double datatype in java?",
+      "answer": "The double data type also should never be used for precise values, such as currency. Its default value is 0.0d.\n\nExample:\n\ndouble d1 = 12.3. "
+    },
+    {
+      "question": "What is char datatype in java?",
+      "answer": "The char data type is used to store characters.\n\nExample:\n\nchar letterA = 'A'  "
+    },
+    {
+      "question": "What is string datatype in java?",
+      "answer": "The string data type is used to store collection of characters.\n\n Example: \n\n String name = 'arfan' "
+    },
+    {
+      "question": "What are Arithemetic operators in java?",
+      "answer": "+\tAddition\tAdds together two values\tx + y\t\n-\tSubtraction\tSubtracts one value from another\tx - y\t\n*\tMultiplication\tMultiplies two values\tx * y\t\n/\tDivision\tDivides one value by another\tx / y\t\n%\tModulus\tReturns the division remainder\tx % y\t\n++\tIncrement\tIncreases the value of a variable by 1\t++x\t\n--\tDecrement\tDecreases the value of a variable by 1\t--x"
+    },
+    {
+      "question": "What are Comparison operators in java?",
+      "answer": "Comparison operators are used to compare two values (or variables). \nThis is important in programming, because it helps us to find answers and make decisions.\nIn the following example, we use the greater than operator (>) to find out if 5 is greater than 3:\n\nExample\nint x = 5;\nint y = 3;\nSystem.out.println(x > y); // returns true, because 5 is higher than 3"
+    },
+    {
+      "question": "What are Logical operators in java?",
+      "answer": "You can also test for true or false values with logical operators.\n\nLogical operators are used to determine the logic between variables or values:\n\nOperator\tName\tDescription\tExample\tTry it\n&& \tLogical and\tReturns true if both statements are true\tx < 5 &&  x < 10\t\n|| \tLogical or\tReturns true if one of the statements is true\tx < 5 || x < 4\t\n!\tLogical not\tReverse the result, returns false if the result is true\t!(x < 5 && x < 10)"
+    },
+    {
+      "question": "give me an example of if-else in java",
+      "answer": "if(condition) {    \nstatement 1; //executes when condition is true   \n}    "
+    },
+    {
+      "question": "What is switch case in java",
+      "answer": "The Java switch statement executes one statement from multiple conditions. It is like if-else-if ladder statement. The switch statement works with byte, short, int, long, enum types, String and some wrapper types like Byte, Short, Int, and Long."
+    },
+    {
+      "question": "Give me an example of switch case in java",
+      "answer": "switch(expression){    \ncase value1:    \n //code to be executed;    \n break;  //optional  \ncase value2:    \n //code to be executed;    \n break;  //optional  \n......    \n    \ndefault:     \n  code to be executed if all cases are not matched;  \n} "
+    },
+    {
+      "question": "what are loops in java",
+      "answer": "There are mainly 4 types : \n1) For loop \n2)While loop \n3)do-while loop \n4)For-each loop"
+    },
+    {
+      "question": "What is for loop in java",
+      "answer": "The Java for loop is used to iterate a part of the program several times. If the number of iteration is fixed, it is recommended to use for loop."
+    },
+    {
+      "question": "what is the syntax of for loop",
+      "answer": "for(initialization; condition; increment/decrement){    \n//statement or code to be executed    \n} "
+    },
+    {
+      "question": "give an example of for loop",
+      "answer": "//Java Program to demonstrate the example of for loop  \n//which prints number from of 1  \npublic class ForExample {  \npublic static void main(String[] args) {  \n    //Code of Java for loop  \n    for(int i=1;i<=10;i++){  \n        System.out.println(i);  \n    }  \n}  \n} "
+    },
+    {
+      "question": "print a simple pattern program",
+      "answer": "Sure,\npublic class PyramidExample {  \npublic static void main(String[] args) {  \nfor(int i=1;i<=5;i++){  \nfor(int j=1;j<=i;j++){  \n        System.out.print(\"* \");  \n}  \nSystem.out.println();//new line  \n}  \n}  \n} "
+    },
+    {
+      "question": "what is for each loop",
+      "answer": "The Java for-each loop or enhanced for loop is introduced since J2SE 5.0. It provides an alternative approach to traverse the array or collection in Java. It is mainly used to traverse the array or collection elements. The advantage of the for-each loop is that it eliminates the possibility of bugs and makes the code more readable. It is known as the for-each loop because it traverses each element one by one."
+    },
+    {
+      "question": "what is syntax of for each loop",
+      "answer": "for(data_type variable : array | collection){  \n//body of for-each loop  \n}  "
+    },
+    {
+      "question": "give an example of for each loop",
+      "answer": "//An example of Java for-each loop  \nclass ForEachExample1{  \n  public static void main(String args[]){  \n   //declaring an array  \n   int arr[]={12,13,14,44};  \n   //traversing the array with for-each loop  \n   for(int i:arr){  \n     System.out.println(i);  \n   }  \n }   \n}  "
+    },
+    {
+      "question": "what is while loop",
+      "answer": "The Java while loop is used to iterate a part of the program repeatedly until the specified Boolean condition is true. As soon as the Boolean condition becomes false, the loop automatically stops.\n\nThe while loop is considered as a repeating if statement. If the number of iteration is not fixed, it is recommended to use the while loop."
+    },
+    {
+      "question": "give an example of while loop",
+      "answer": "public class WhileExample {  \npublic static void main(String[] args) {  \n    int i=1;  \n    while(i<=10){  \n        System.out.println(i);  \n    i++;  \n    }  \n}  \n}"
+    },
+    {
+      "question": "what is do while loop",
+      "answer": "The Java do-while loop is used to iterate a part of the program repeatedly, until the specified condition is true. If the number of iteration is not fixed and you must have to execute the loop at least once, it is recommended to use a do-while loop.\n\nJava do-while loop is called an exit control loop. Therefore, unlike while loop and for loop, the do-while check the condition at the end of loop body. The Java do-while loop is executed at least once because condition is checked after loop body."
+    },
+    {
+      "question": "give an example of do while loop",
+      "answer": "public class DoWhileExample {    \npublic static void main(String[] args) {    \n    int i=1;    \n    do{    \n        System.out.println(i);    \n    i++;    \n    }while(i<=10);    \n}    \n} "
+    },
+    {
+      "question": "what is difference between for , while and do while loop",
+      "answer": "There are three primary types of loops: \nThe \"for\" loop, which is used when you know in advance how many iterations are needed. \nThe \"while\" loop, which repeats as long as a given condition is true. \nThe \"do-while\" loop, which guarantees at least one execution of the loop body before checking the condition."
+    },
+    {
+      "question": "what is break statement in java",
+      "answer": "When a break statement is encountered inside a loop, the loop is immediately terminated and the program control resumes at the next statement following the loop.\n\nThe Java break statement is used to break loop or switch statement. It breaks the current flow of the program at specified condition. In case of inner loop, it breaks only inner loop.\n\nWe can use Java break statement in all types of loops such as for loop, while loop and do-while loop."
+    },
+    {
+      "question": "give an example of break statement",
+      "answer": "//Java Program to demonstrate the use of break statement    \n//inside the for loop.  \npublic class BreakExample {  \npublic static void main(String[] args) {  \n    //using for loop  \n    for(int i=1;i<=10;i++){  \n        if(i==5){  \n            //breaking the loop  \n            break;  \n        }  \n        System.out.println(i);  \n    }  \n}  \n} "
+    },
+    {
+      "question": "what is continue statement in java",
+      "answer": "The continue statement is used in loop control structure when you need to jump to the next iteration of the loop immediately. It can be used with for loop or while loop.\n\nThe Java continue statement is used to continue the loop. It continues the current flow of the program and skips the remaining code at the specified condition. In case of an inner loop, it continues the inner loop only."
+    },
+    {
+      "question": "give an example of continue statement",
+      "answer": "//Java Program to demonstrate the use of continue statement  \n//inside the for loop.  \npublic class ContinueExample {  \npublic static void main(String[] args) {  \n    //for loop  \n    for(int i=1;i<=10;i++){  \n        if(i==5){  \n            //using continue statement  \n            continue;//it will skip the rest statement  \n        }  \n        System.out.println(i);  \n    }  \n}  \n}  "
+    },
+    {
+      "question": "what are comments in java",
+      "answer": "The Java comments are the statements in a program that are not executed by the compiler and interpreter."
+    },
+    {
+      "question": "Why do we use comments in a code?",
+      "answer": "Comments are used to make the program more readable by adding the details of the code.\nIt makes easy to maintain the code and to find the errors easily.\nThe comments can be used to provide information or explanation about the variable, method, class, or any statement.\nIt can also be used to prevent the execution of program code while testing the alternative code."
+    },
+    {
+      "question": "what are the types of comment",
+      "answer": "There are three types of comments in Java.\n\nSingle Line Comment\nMulti Line Comment\nDocumentation Comment"
+    },
+    {
+      "question": "what is arrays in java",
+      "answer": "Java array is an object which contains elements of a similar data type. Additionally, The elements of an array are stored in a contiguous memory location. It is a data structure where we store similar elements. We can store only a fixed set of elements in a Java array.\n\nArray in Java is index-based, the first element of the array is stored at the 0th index, 2nd element is stored on 1st index and so on."
+    },
+    {
+      "question": "what are the types of array",
+      "answer": "There are two types of array.\n\nSingle Dimensional Array\nMultidimensional Array"
+    },
+    {
+      "question": [
+        "who developed you?",
+        "who is your creator?",
+        "who made you"
+      ],
+      "answer": "I have been developed by A2RM."
+    },
+    {
+      "question": "what is in inheritance",
+      "answer": "Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object. It is an important part of OOPs (Object Oriented programming system)."
+    },
+    {
+      "question": "what is syntax of inheritance",
+      "answer": "class Subclass-name extends Superclass-name  \n{  \n   //methods and fields  \n}  "
+    },
+    {
+      "question": "what are the types of inheritance",
+      "answer": "On the basis of class, there can be three types of inheritance in java: \n1) Single Inheritance \n2) Multilevel Inheritance \n3) Hierarchical Inheritance."
+    },
+    {
+      "question": "give an example of single inheritance",
+      "answer": "class Animal{  \nvoid eat(){System.out.println(\"eating...\");}  \n}  \nclass Dog extends Animal{  \nvoid bark(){System.out.println(\"barking...\");}  \n}  \nclass TestInheritance{  \npublic static void main(String args[]){  \nDog d=new Dog();  \nd.bark();  \nd.eat();  \n}}"
+    },
+    {
+      "question": "give an example of multilevel inheritance",
+      "answer": "class Animal{  \nvoid eat(){System.out.println(\"eating...\");}  \n}  \nclass Dog extends Animal{  \nvoid bark(){System.out.println(\"barking...\");}  \n}  \nclass BabyDog extends Dog{  \nvoid weep(){System.out.println(\"weeping...\");}  \n}  \nclass TestInheritance2{  \npublic static void main(String args[]){  \nBabyDog d=new BabyDog();  \nd.weep();  \nd.bark();  \nd.eat();  \n}} "
+    },
+    {
+      "question": "give an example of hierarchical  inheritance",
+      "answer": "class Animal{  \nvoid eat(){System.out.println(\"eating...\");}  \n}  \nclass Dog extends Animal{  \nvoid bark(){System.out.println(\"barking...\");}  \n}  \nclass Cat extends Animal{  \nvoid meow(){System.out.println(\"meowing...\");}  \n}  \nclass TestInheritance3{  \npublic static void main(String args[]){  \nCat c=new Cat();  \nc.meow();  \nc.eat();  \n//c.bark();//C.T.Error  \n}} "
+    },
+    {
+      "question": "why multiple inheritance is not supported in java?",
+      "answer": "To reduce the complexity and simplify the language, multiple inheritance is not supported in java. \nConsider a scenario where A, B, and C are three classes. The C class inherits A and B classes. If A and B classes have the same method and you call it from child class object, there will be ambiguity to call the method of A or B class.\n\n"
+    },
+    {
+      "question": "what is abstraction in java",
+      "answer": "Abstraction is a process of hiding the implementation details and showing only functionality to the user.\n\nAnother way, it shows only essential things to the user and hides the internal details, for example, sending SMS where you type the text and send the message. You don't know the internal processing about the message delivery. \n\nAbstraction lets you focus on what the object does instead of how it does it. \n\nWays to achieve Abstraction\nThere are two ways to achieve abstraction in java\n\nAbstract class (0 to 100%)\nInterface (100%)"
+    },
+    {
+      "question": "what is abstract class in java",
+      "answer": "A class which is declared as abstract is known as an abstract class. It can have abstract and non-abstract methods. It needs to be extended and its method implemented. It cannot be instantiated. \n\nAn abstract class must be declared with an abstract keyword.\nIt can have abstract and non-abstract methods.\nIt cannot be instantiated.\nIt can have constructors and static methods also.\nIt can have final methods which will force the subclass not to change the body of the method"
+    },
+    {
+      "question": "give me an example of abstract class in java",
+      "answer": "abstract class Bike{  \n  abstract void run();  \n}  \nclass Honda4 extends Bike{  \nvoid run(){System.out.println(\"running safely\");}  \npublic static void main(String args[]){  \n Bike obj = new Honda4();  \n obj.run();  \n}  \n}  "
+    },
+    {
+      "question": "what is interface in java",
+      "answer": "An interface in Java is a blueprint of a class. It has static constants and abstract methods. \nThe interface in Java is a mechanism to achieve abstraction. There can be only abstract methods in the Java interface, not method body. It is used to achieve abstraction and multiple inheritance in Java.\n\nIn other words, you can say that interfaces can have abstract methods and variables. It cannot have a method body."
+    },
+    {
+      "question": "give me an example of interface in java",
+      "answer": "interface printable{  \nvoid print();  \n}  \nclass A6 implements printable{  \npublic void print(){System.out.println(\"Hello\");}  \n  \npublic static void main(String args[]){  \nA6 obj = new A6();  \nobj.print();  \n }  \n}  "
+    },
+    {
+      "question": "what is the difference bet abstract class and interface",
+      "answer": "Abstract class\tInterface\n1) Abstract class can have abstract and non-abstract methods.\tInterface can have only abstract methods. Since Java 8, it can have default and static methods also.\n2) Abstract class doesn't support multiple inheritance.\tInterface supports multiple inheritance.\n3) Abstract class can have final, non-final, static and non-static variables.\tInterface has only static and final variables.\n4) Abstract class can provide the implementation of interface.\tInterface can't provide the implementation of abstract class.\n5) The abstract keyword is used to declare abstract class.\tThe interface keyword is used to declare interface.\n6) An abstract class can extend another Java class and implement multiple Java interfaces.\tAn interface can extend another Java interface only.\n7) An abstract class can be extended using keyword \"extends\".\tAn interface can be implemented using keyword \"implements\".\n8) A Java abstract class can have class members like private, protected, etc.\tMembers of a Java interface are public by default.\n9)Example:\npublic abstract class Shape{\npublic abstract void draw();\n}\tExample:\npublic interface Drawable{\nvoid draw();\n}"
+    },
+    {
+      "question": " give example of abstract class and interface in Java",
+      "answer": "//Creating interface that has 4 methods  \ninterface A{  \nvoid a();//bydefault, public and abstract  \nvoid b();  \nvoid c();  \nvoid d();  \n}  \n  \n//Creating abstract class that provides the implementation of one method of A interface  \nabstract class B implements A{  \npublic void c(){System.out.println(\"I am C\");}  \n}  \n  \n//Creating subclass of abstract class, now we need to provide the implementation of rest of the methods  \nclass M extends B{  \npublic void a(){System.out.println(\"I am a\");}  \npublic void b(){System.out.println(\"I am b\");}  \npublic void d(){System.out.println(\"I am d\");}  \n}  \n  \n//Creating a test class that calls the methods of A interface  \nclass Test5{  \npublic static void main(String args[]){  \nA a=new M();  \na.a();  \na.b();  \na.c();  \na.d();  \n}}  "
+    },
+    {
+      "question": "what is encapsulation in java",
+      "answer": "Encapsulation in Java is a process of wrapping code and data together into a single unit, for example, a capsule which is mixed of several medicines. \n\nWe can create a fully encapsulated class in Java by making all the data members of the class private. Now we can use setter and getter methods to set and get the data in it. \n\nThe Java Bean class is the example of a fully encapsulated class."
+    },
+    {
+      "question": "give an example of encapsulation",
+      "answer": "class Person {\n\n  // private field\n  private int age;\n\n  // getter method\n  public int getAge() {\n    return age;\n  }\n\n  // setter method\n  public void setAge(int age) {\n    this.age = age;\n  }\n}\n\nclass Main {\n  public static void main(String[] args) {\n\n    // create an object of Person\n    Person p1 = new Person();\n\n    // change age using setter\n    p1.setAge(24);\n\n    // access age using getter\n    System.out.println(\"My age is \" + p1.getAge());\n  }\n}"
+    },
+    {
+      "question": "what is packages in java",
+      "answer": "A java package is a group of similar types of classes, interfaces and sub-packages.\n\nPackage in java can be categorized in two form, built-in package and user-defined package.\n\nThere are many built-in packages such as java, lang, awt, javax, swing, net, io, util, sql etc."
+    },
+    {
+      "question": "example of package",
+      "answer": "//save as Simple.java  \npackage mypack;  \npublic class Simple{  \n public static void main(String args[]){  \n    System.out.println(\"Welcome to package\");  \n   }  \n}  "
+    },
+    {
+      "question": "how to access package from another package?",
+      "answer": "There are three ways to access the package from outside the package.\n\nimport package.*;\nimport package.classname;\nfully qualified name. \n\n\n1) Using packagename.* \n//save by A.java  \npackage pack;  \npublic class A{  \n  public void msg(){System.out.println(\"Hello\");}  \n}  \n\n//save by B.java  \npackage mypack;  \nimport pack.*;  \n  \nclass B{  \n  public static void main(String args[]){  \n   A obj = new A();  \n   obj.msg();  \n  }  \n} \n\n\n2) Using packagename.classname \n//save by A.java  \n  \npackage pack;  \npublic class A{  \n  public void msg(){System.out.println(\"Hello\");}  \n} \n\n//save by B.java  \npackage mypack;  \nimport pack.A;  \n  \nclass B{  \n  public static void main(String args[]){  \n   A obj = new A();  \n   obj.msg();  \n  }  \n} \n\n\n3) Using fully qualified name \n//save by A.java  \npackage pack;  \npublic class A{  \n  public void msg(){System.out.println(\"Hello\");}  \n}  \n\n//save by B.java  \npackage mypack;  \nclass B{  \n  public static void main(String args[]){  \n   pack.A obj = new pack.A();//using fully qualified name  \n   obj.msg();  \n  }  \n} "
+    },
+    {
+      "question": "what is subpackage in java",
+      "answer": "A subpackage in Java is a Java package that is nested within another package. This allows developers to organize related code into meaningful groups and encapsulate code away from the main application. A subpackage may contain other packages, classes, interfaces, enumerations, and annotations. \n\nExample: \npackage com.sampleshow.core;  \nclass Simple{  \n  public static void main(String args[]){  \n   System.out.println(\"Hello subpackage\");  \n  }  \n}  "
+    },
+    {
+      "question": "what is access modifiers in java",
+      "answer": "The access modifiers in Java specifies the accessibility or scope of a field, method, constructor, or class. We can change the access level of fields, constructors, methods, and class by applying the access modifier on it."
+    },
+    {
+      "question": "what are the types of access modifiers in java",
+      "answer": "There are four types of Java access modifiers:\n\nPrivate: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.\nDefault: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.\nProtected: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.\nPublic: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package."
+    },
+    {
+      "question": "give me the table for access modifiers",
+      "answer": "Access Modifier\twithin class\twithin package\toutside package by subclass only\toutside package\nPrivate\tY\tN\tN\tN\nDefault\tY\tY\tN\tN\nProtected\tY\tY\tY\tN\nPublic\tY\tY\tY\tY"
+    },
+    {
+      "question": "explain private access modifier",
+      "answer": "The private access modifier is accessible only within the class. \n\nclass A{  \nprivate int data=40;  \nprivate void msg(){System.out.println(\"Hello java\");}  \n}  \n  \npublic class Simple{  \n public static void main(String args[]){  \n   A obj=new A();  \n   System.out.println(obj.data);//Compile Time Error  \n   obj.msg();//Compile Time Error  \n   }  \n} \n\nIn this example, we have created two classes A and Simple. A class contains private data member and private method. We are accessing these private members from outside the class, so there is a compile-time error."
+    },
+    {
+      "question": "explain protected access modifier",
+      "answer": "The protected access modifier is accessible within package and outside the package but through inheritance only.\n\nThe protected access modifier can be applied on the data member, method and constructor. It can't be applied on the class.\n\nIt provides more accessibility than the default modifier. \n\n//save by A.java  \npackage pack;  \npublic class A{  \nprotected void msg(){System.out.println(\"Hello\");}  \n}  \n\n//save by B.java  \npackage mypack;  \nimport pack.*;  \n  \nclass B extends A{  \n  public static void main(String args[]){  \n   B obj = new B();  \n   obj.msg();  \n  }  \n}  \n\nIn this example, we have created the two packages pack and mypack. The A class of pack package is public, so can be accessed from outside the package. But msg method of this package is declared as protected, so it can be accessed from outside the class only through inheritance."
+    },
+    {
+      "question": "explain public access modifier",
+      "answer": "The public access modifier is accessible everywhere. It has the widest scope among all other modifiers. \n\n//save by A.java  \n  \npackage pack;  \npublic class A{  \npublic void msg(){System.out.println(\"Hello\");}  \n} \n\n//save by B.java  \n  \npackage mypack;  \nimport pack.*;  \n  \nclass B{  \n  public static void main(String args[]){  \n   A obj = new A();  \n   obj.msg();  \n  }  \n}"
+    },
+    {
+      "question": "explain default access modifier",
+      "answer": "If you don't use any modifier, it is treated as default by default. The default modifier is accessible only within package. It cannot be accessed from outside the package. It provides more accessibility than private. But, it is more restrictive than protected, and public. \n\n//save by A.java  \npackage pack;  \nclass A{  \n  void msg(){System.out.println(\"Hello\");}  \n}  \n\n//save by B.java  \npackage mypack;  \nimport pack.*;  \nclass B{  \n  public static void main(String args[]){  \n   A obj = new A();//Compile Time Error  \n   obj.msg();//Compile Time Error  \n  }  \n}  \n\nIn this example, we have created two packages pack and mypack. We are accessing the A class from outside its package, since A class is not public, so it cannot be accessed from outside the package. \nIn the above example, the scope of class A and its method msg() is default so it cannot be accessed from outside the package."
+    },
+    {
+      "question": "what is Natural Language Processing?",
+      "answer": "Natural Language Processing is concept in which we use concepts like stemming,bag of word and tokenization."
+    },
+    {
+      "question": "what is stemming?",
+      "answer": "stemming is a concept in which we cut of parts of words for eg: organisation,organize,organiser \n so words will be stemmed in organ,organ,organ."
+    },
+    {
+      "question": "what is bag of words?",
+      "answer": "bag of words is concept in which we bi-fercate a sentence into many parts \n for eg : 'What will you do with so much money?' so it will be divided into (what, will, you, do, with, so, much, money) will be converted to lower case."
+    },
+    {
+      "question": "tell me the shortest horror story",
+      "answer": "The last man on earth was sitting in his living room. There was a knock on the door..."
+    },
+    {
+      "question": "iphone",
+      "answer": "It is a mobile"
+    }
+  ]
+}
